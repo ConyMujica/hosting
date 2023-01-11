@@ -1,0 +1,79 @@
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #fff8e1;
+}
+.intro {
+  text-align: center;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+.about-list {
+  list-style: none;
+  padding: 0%;
+}
+@media (max-width: 480px) {
+  .about-grid {
+    grid-template-columns: 100%;
+  }
+}
+.portfolio {
+  text-align: center;
+}
+.portfolio-grids {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.portfolio-image {
+  justify-self: center;
+  padding: 4%;
+}
+@media (max-width: 650px) {
+  .about-grid {
+    grid-template-columns: 100%;
+  }
+}
+.linksandcontact {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.links {
+  justify-self: center;
+  padding-left: 10px;
+}
+.title-links {
+  padding-left: 39px;
+}
+.links-list {
+  list-style: none;
+  padding-right: 115px;
+}
+@media (max-width: 650px) {
+  .about-grid {
+    grid-template-columns: 100%;
+  }
+}
+input {
+  display: block;
+}
+.form {
+  justify-self: center;
+  padding-left: 320px;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+  transition: all ease-in-out 0.2s;
+}
+.profile-picture:hover {
+  box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+}
+.project-image {
+  border-radius: 5px;
+}
